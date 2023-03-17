@@ -19,7 +19,7 @@ const btnBarsMenu = document.querySelector('.nav-tablet');
 btnBars.onclick = function() {
     btnBarsMenu.classList.toggle('open');
     const isOpen = btnBarsMenu.classList.contains('open');
-
+console.log(isOpen);
     btnBarsIcon.classList = isOpen ?
         'fa-solid fa-xmark btn-socials' : 'fa-sharp fa-solid fa-bars btn-socials';
 
